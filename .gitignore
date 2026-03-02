@@ -1,0 +1,41 @@
+# Exclude local documentation
+docs/
+
+# Exclude Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Exclude virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Exclude IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+
+# Exclude large data files (keep processed CSVs, exclude raw data)
+Data/Enron/maildir/
+Data/Wikipedia/Wikipedia\ Page\ Request\ Logs/
+
+# Keep results but exclude temporary files
+results/*.tmp
+*.log
+
+# Exclude notebook checkpoints
+.ipynb_checkpoints/
+
+# Exclude build artifacts
+build/
+dist/
+*.egg-info/
